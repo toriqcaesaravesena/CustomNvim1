@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
   use {'p00f/nvim-ts-rainbow'}
   use {'windwp/nvim-autopairs'}
   use {'folke/which-key.nvim'}
+  use {"lukas-reineke/indent-blankline.nvim"}
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.2',
     requires = { {'nvim-lua/plenary.nvim'} }
